@@ -4,8 +4,8 @@ body{
 }
 
 .main{
-   width: 50%;
-   height: 12vh;
+   width: 25%;
+   height: 15vh;
    margin:auto;
    padding: 15px 15px 15px 15px;
    position: relative;
@@ -13,9 +13,10 @@ body{
 }
 
 .div1{
-    width: auto;
+width: auto;
     color: white;
     background-color: red;
     font-size: 32px;
     font-weight: bold;
+    text-align: center;
 }
