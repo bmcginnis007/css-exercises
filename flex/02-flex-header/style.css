@@ -4,8 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .logo {
@@ -33,5 +31,11 @@ a {
 
 li{
   display: inline;
+}
+
+.right-links{
+  padding-right: 40px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 
