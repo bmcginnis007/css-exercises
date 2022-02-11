@@ -64,6 +64,7 @@ button.continue {
   border: 1px solid royalblue;
   color: white;
   margin-top: 16px;
+  margin-left: 58px;
 }
 
 button.cancel {
@@ -75,18 +76,18 @@ button.cancel {
 .cb-container{
   display: flex;
   justify-content: flex-end;
-  margin-left: 34.66px;
+  margin-left: 135.81px;
 }
 
 .header-container{
   display: flex;
   justify-content: flex-end;
+  margin-left: 16px;
 }
 
 .icon-container{
-  display: inline-block;
   margin-left: 25px;
-  padding-right: 16px;
+  margin-top: 16px;
 }
 
 .miw{
@@ -96,5 +97,5 @@ button.cancel {
 }
 
 .text{
-  display: inline-block;
+ margin-left: 58px;
 }
