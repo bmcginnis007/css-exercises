@@ -18,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -28,18 +29,47 @@ input {
   margin-bottom: 16px;
 }
 
-.header{
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-}
-
-.left-links{
-  text-decoration: none;
-  list-style: none;
-}
-
 a{
   color: grey;
   text-decoration: none;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 5px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+
+}
+
+.left-links{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 15px;
+
+}
+
+.right-links{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 15px;
+  padding-right: 5px;
 }
